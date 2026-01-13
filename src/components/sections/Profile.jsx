@@ -26,7 +26,7 @@ const Profile = () => {
 
                     <button 
                         type='submit'
-                        className='font-mediuum py-2 px-8 rounded-lg bg-[#fafafa] shadow-md shadow-black/10 backdrop-blur-xs
+                        className='font-mediuum py-2 px-8 rounded-lg bg-[#fafafa]  hover:bg-blue-600 hover:text-white shadow-md shadow-black/10 backdrop-blur-xs
                                     transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5'
                     >
                         <a href={resume} download={resume}>My Resume</a>
@@ -55,7 +55,7 @@ const Profile = () => {
                     </div>
 
                     <div className='mt-4 border-t border-gray pt-4'>
-                        <a href='mailto:amanverma171003@gmail.com' className='flex items-center justify-center w-full font-medium py-2 px-8 rounded-lg
+                        <a href='mailto:amanverma171003@gmail.com' className='flex items-center justify-center w-full font-medium py-2 px-8 rounded-lg hover:bg-blue-600 hover:text-white
                                                                               shadow-md shadow-black/10 backdrop-blur-xs transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5'       
                         > Send an Email</a>
                     </div>
