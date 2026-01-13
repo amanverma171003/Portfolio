@@ -12,7 +12,7 @@ const Navbar = () => {
                 </nav>
 
                 <div className='flex gap-4 items-center rounded-full py-2 px-8 text-black bg-[#fafafa] backdrop-blur-xs shadow-md shadow-black/10 font-md hover:shadow-lg hover:translate-y-0.5 transition-all duration-300'>
-                    <a href={resume} download={resume}>Resume</a>
+                    <a href="https://drive.google.com/file/d/19xk2R8UFH0hi9Op4hBD-VY06agHUHGgp/view?usp=sharing">Resume</a>
                 </div>
             </header>
     </div>

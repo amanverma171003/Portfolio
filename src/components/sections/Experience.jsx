@@ -28,13 +28,13 @@ const Experience = () => {
             <div className="relative flex items-center md:justify-normal group md:odd:flex-row-reverse">
 
               {/* Icon */}
-              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
-                <PiCertificateLight />
+              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 hover:bg-green-300 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
+                <a href="https://drive.google.com/file/d/1nClaErZGKCtR6FM2RtzTb71ptjw54Hup/view?usp=sharing"><PiCertificateLight /> </a>
               </div>
 
               {/* Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg w-[85%] md:w-[45%] ml-auto md:ml-0 md:group-odd:mr-auto md:group-even:ml-auto">
-                <h3 className="text-xl font-bold text-gray-900">DELTA - Full Stack Development</h3>
+                <h3 className="text-xl font-bold hover:text-blue-400 text-gray-900"><a href="https://drive.google.com/file/d/1nClaErZGKCtR6FM2RtzTb71ptjw54Hup/view?usp=sharing">DELTA - Full Stack Development</a></h3>
                 <p className="font-medium text-gray-700 mb-1">Apna College</p>
                 <p className="text-sm text-gray-500 mb-3">November 2024 - April 2025</p>
 
@@ -50,12 +50,12 @@ const Experience = () => {
             {/* ITEM 2 */}
             <div className="relative flex items-center md:justify-normal group md:odd:flex-row-reverse">
 
-              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
-                <PiCertificateLight />
+              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 bg-black hover:bg-green-300 text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
+                <a href="https://drive.google.com/file/d/16-xHTR1amMpLpoklDgy4BITymUDFO8H9/view?usp=sharing"><PiCertificateLight /></a>
               </div>
 
               <div className="bg-white p-6 rounded-2xl shadow-lg w-[85%] md:w-[45%] ml-auto md:ml-0 md:group-odd:mr-auto md:group-even:ml-auto">
-                <h3 className="text-xl font-bold text-gray-900">DATACOM - JOB Simulation</h3>
+                <h3 className="text-xl font-bold text-gray-900 hover:text-blue-400"><a href="https://drive.google.com/file/d/16-xHTR1amMpLpoklDgy4BITymUDFO8H9/view?usp=sharing">DATACOM - JOB Simulation</a></h3>
                 <p className="font-medium text-gray-700 mb-1">Forage</p>
                 <p className="text-sm text-gray-500 mb-3">JULY 2025</p>
 
@@ -71,12 +71,12 @@ const Experience = () => {
             {/* ITEM 3 */}
             <div className="relative flex items-center md:justify-normal group md:odd:flex-row-reverse">
 
-              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
-                <PiCertificateLight />
+              <div className="absolute left-5 md:left-1/2 md:-translate-x-1/2 bg-black hover:bg-green-300 text-white w-10 h-10 rounded-full flex items-center justify-center z-10">
+                <a href="https://drive.google.com/file/d/1YTWwjFjIHgBKv4yNb0-tP4FpLW6oCvpZ/view?usp=sharing"><PiCertificateLight /> </a>
               </div>
 
               <div className="bg-white p-6 rounded-2xl shadow-lg w-[85%] md:w-[45%] ml-auto md:ml-0 md:group-odd:mr-auto md:group-even:ml-auto">
-                <h3 className="text-xl font-bold text-gray-900">AWS Cloud Practioner</h3>
+                <h3 className="text-xl font-bold text-gray-900 hover:text-blue-400"> <a href="https://drive.google.com/file/d/1YTWwjFjIHgBKv4yNb0-tP4FpLW6oCvpZ/view?usp=sharing">AWS Cloud Practioner</a></h3>
                 <p className="font-medium text-gray-700 mb-1">AWS</p>
                 <p className="text-sm text-gray-500 mb-3">September 2025</p>
 
