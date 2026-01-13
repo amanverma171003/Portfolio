@@ -7,7 +7,7 @@ const Profile = () => {
     <section className='w-full lg:text-left lg:h-screen flex flex-col items-center justify-between lg:overflow-hidden pt-30 pb-16
                         lg:py-0 lg:pt-12 px-4 sm:mt-12'>
 
-        <h1 className='text-4xl md:text-6xl font-bold text-center md:py-8 sm:py-20 xs:py-20'>
+        <h1 className='text-4xl md:text-6xl font-bold text-center md:py-8 sm:py-20 py-32'>
             Hello, I am<br/> Aman Verma
         </h1>
 
