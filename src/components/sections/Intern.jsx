@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { RiCheckboxCircleLine } from "react-icons/ri";
-
 const useVisible = (threshold = 0.15) => {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
@@ -11,7 +9,7 @@ const useVisible = (threshold = 0.15) => {
     );
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
-  }, []);
+  }, [threshold]);
   return [ref, visible];
 };
 
@@ -72,12 +70,6 @@ const achievements = [
   },
 ];
 
-const stats = [
-  { value: "2", label: "Month Agile Sprint" },
-  { value: "100+", label: "Users & Events" },
-  { value: "~25%", label: "API Speed Gain" },
-  { value: "~40%", label: "CRM Efficiency" },
-];
 
 const techStack = ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Agile"];
 

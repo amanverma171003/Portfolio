@@ -24,9 +24,6 @@
 // export default Navbar
 
 
-
-import resume from '../../assets/Aman-verma.pdf'
-
 const Navbar = () => {
   return (
     <div className='fixed w-full top-0 z-50 px-4'>
