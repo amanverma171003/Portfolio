@@ -6,6 +6,7 @@ import Technologies from './components/sections/Technologies';
 import Experience from './components/sections/Experience';
 import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
+import Internship from './components/sections/Intern';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Profile />
       <About />
+      <Internship />
       <Projects />
       <Technologies />
       <Experience />
